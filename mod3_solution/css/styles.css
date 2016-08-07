@@ -1,0 +1,61 @@
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+ }
+
+ .navbar-brand{
+ 	margin-top:15px;
+ 	margin-bottom:20px;
+ }
+
+ 
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Impact', sans-serif;
+  color: black;
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  }
+
+#nav-list{
+	margin-top: 0;
+	margin-bottom: 0;
+	background: #D3D3D3
+}
+
+#nav-list a {
+  color: #800000;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+  }
+
+li{
+  border-bottom: 1px solid black;
+}
+
+li:nth-child(1) {
+  border-top: 1px solid black;
+}
+
+section{
+  height:1000px;
+  background-color: #87cefa;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+section h3{
+  padding-top:15px;
+  font-family: "Lucida Console" , monospace
+}
